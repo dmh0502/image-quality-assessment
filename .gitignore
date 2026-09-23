@@ -1,0 +1,33 @@
+# =================== Python ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+
+# =================== Temporary Uploads ===================
+uploads/*
+!uploads/.gitkeep
+
+# =================== Datasets (Nearly 3GB, vượt giới hạn GitHub) ===================
+# Giữ lại kadid10k/dmos.csv (328KB), chỉ bỏ qua thư mục ảnh 3GB
+kadid10k/images/
+
+# =================== Frontend ===================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =================== OS & Editor Metadata ===================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

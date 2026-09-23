@@ -1,0 +1,42 @@
+[
+  {
+    "id": "b33fedf6-597a-4c0a-8cef-2da00ef872dc",
+    "filename": "I81_14_03.png",
+    "image_url": "/uploads/b33fedf6-597a-4c0a-8cef-2da00ef872dc_I81_14_03.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 444.7,
+    "predicted_mos": 2.92,
+    "rating": {
+      "label": "Trung bình (Fair)",
+      "color": "amber",
+      "badge": "bg-amber-500/10 text-amber-400 border-amber-500/30"
+    },
+    "noise_code": 14,
+    "noise_name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)",
+    "confidence": 95.78,
+    "top_distortions": [
+      {
+        "code": 14,
+        "name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)",
+        "probability": 95.78
+      },
+      {
+        "code": 12,
+        "name": "Nhiễu hạt trên kênh màu (White noise in color component)",
+        "probability": 1.65
+      },
+      {
+        "code": 11,
+        "name": "Nhiễu trắng (White noise)",
+        "probability": 1.37
+      }
+    ],
+    "ground_truth": {
+      "dmos": 2.7,
+      "noise_code": 14,
+      "noise_name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)"
+    },
+    "created_at": "2026-09-23 15:39:13"
+  }
+]
