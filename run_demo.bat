@@ -1,21 +1,26 @@
 @echo off
-chcp 65001 > nul
+cd /d "%~dp0"
+title NRIQA Studio
+
 echo ===================================================================
-echo   KHỞI CHẠY WEB DEMO NRIQA (AI ĐÁNH GIÁ CHẤT LƯỢNG ẢNH & NHẬN DIỆN LỖI)
+echo   KHOI CHAY WEB DEMO NRIQA STUDIO
 echo ===================================================================
-echo [1/2] Đang khởi chạy Backend FastAPI...
+
+:: Giai phong port 8000 va 5173 neu bi tien trinh cu chiem dung
+python -c "import subprocess; [subprocess.run(f'taskkill /F /PID {l.split()[4]}', shell=True, capture_output=True) for p in [8000, 5173] for l in subprocess.getoutput(f'netstat -ano | findstr :{p}').splitlines() if f':{p}' in l and 'LISTENING' in l]" >nul 2>nul
+
+echo [1/2] Khoi chay Backend FastAPI (Port 8000)...
 start "NRIQA Backend API (Port 8000)" cmd /k "python server.py"
 
-echo [2/2] Đang khởi chạy Frontend React + TypeScript...
-cd frontend
-start "NRIQA Frontend React (Port 5173)" cmd /k "npm run dev"
+echo [2/2] Khoi chay Frontend React (Port 5173)...
+start "NRIQA Frontend React (Port 5173)" cmd /k "cd frontend && npm run dev"
 
 echo.
 echo ===================================================================
-echo   Hệ thống đã khởi chạy thành công!
+echo   He thong da khoi chay!
 echo   - Frontend: http://localhost:5173
-echo   - Backend API Docs: http://localhost:8000/docs
+echo   - Backend Docs: http://localhost:8000/docs
 echo ===================================================================
-timeout /t 5
+echo Dang mo trinh duyet...
+ping 127.0.0.1 -n 4 > nul
 start http://localhost:5173
-

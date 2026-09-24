@@ -56,18 +56,24 @@ cd ..
 ```
 
 ### 4. Khởi chạy ứng dụng
-**Cách 1:** Nhấp đúp chuột vào file **`run_demo.bat`** (trên Windows).
 
-**Cách 2:** Chạy thủ công trên 2 terminal:
-- **Terminal 1 (Backend):**
+**Cách 1 (Khởi chạy tự động):**
+- Nhấp đúp chuột vào file **`run_demo.bat`** (trên Windows).
+- Hệ thống sẽ tự động giải phóng port cũ (nếu có), bật Backend FastAPI & Frontend React, sau đó tự mở trình duyệt tại `http://localhost:5173`.
+
+**Cách 2 (Chạy thủ công 2 Terminal):**
+- **Terminal 1 (Backend API):**
   ```bash
   python server.py
   ```
-- **Terminal 2 (Frontend):**
+- **Terminal 2 (Frontend React):**
   ```bash
-  cd frontend
   npm run dev
   ```
+  *(Có thể gõ trực tiếp ở thư mục gốc hoặc `cd frontend && npm run dev`)*
 
 Mở trình duyệt tại: **`http://localhost:5173`**
+
+
+
 

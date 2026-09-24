@@ -1,5 +1,317 @@
 [
   {
+    "id": "7669eb71-bc02-4049-b89a-8a9a2f5c52da",
+    "filename": "I81_14_03.png",
+    "image_url": "/uploads/7669eb71-bc02-4049-b89a-8a9a2f5c52da_I81_14_03.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 444.7,
+    "predicted_mos": 2.92,
+    "rating": {
+      "label": "Trung bình (Fair)",
+      "color": "amber",
+      "badge": "bg-amber-500/10 text-amber-400 border-amber-500/30"
+    },
+    "noise_code": 14,
+    "noise_name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)",
+    "confidence": 95.78,
+    "top_distortions": [
+      {
+        "code": 14,
+        "name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)",
+        "probability": 95.78
+      },
+      {
+        "code": 12,
+        "name": "Nhiễu hạt trên kênh màu (White noise in color component)",
+        "probability": 1.65
+      },
+      {
+        "code": 11,
+        "name": "Nhiễu trắng (White noise)",
+        "probability": 1.37
+      }
+    ],
+    "ground_truth": {
+      "dmos": 2.7,
+      "noise_code": 14,
+      "noise_name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)"
+    },
+    "created_at": "2026-09-24 11:28:42"
+  },
+  {
+    "id": "b814a860-b4c2-4a86-9241-988ca3bf2d4d",
+    "filename": "meonhathangluan.jpg",
+    "image_url": "/uploads/b814a860-b4c2-4a86-9241-988ca3bf2d4d_meonhathangluan.jpg",
+    "width": 1182,
+    "height": 665,
+    "file_size_kb": 58.4,
+    "predicted_mos": 1.96,
+    "rating": {
+      "label": "Kém (Poor)",
+      "color": "orange",
+      "badge": "bg-orange-500/10 text-orange-400 border-orange-500/30"
+    },
+    "noise_code": 7,
+    "noise_name": "Giảm bão hòa màu nhạt đi (Color saturation 1)",
+    "confidence": 86.74,
+    "top_distortions": [
+      {
+        "code": 7,
+        "name": "Giảm bão hòa màu nhạt đi (Color saturation 1)",
+        "probability": 86.74
+      },
+      {
+        "code": 22,
+        "name": "Lượng tử hóa / Phân dải màu (Quantization)",
+        "probability": 9.69
+      },
+      {
+        "code": 25,
+        "name": "Thay đổi độ tương phản (Contrast change)",
+        "probability": 1.36
+      }
+    ],
+    "ground_truth": null,
+    "created_at": "2026-09-23 16:55:07"
+  },
+  {
+    "id": "47e940dd-53e0-4197-b823-53b1daaad923",
+    "filename": "download.jpg",
+    "image_url": "/uploads/47e940dd-53e0-4197-b823-53b1daaad923_download.jpg",
+    "width": 736,
+    "height": 1592,
+    "file_size_kb": 371.9,
+    "predicted_mos": 1.58,
+    "rating": {
+      "label": "Rất kém (Bad)",
+      "color": "rose",
+      "badge": "bg-rose-500/10 text-rose-400 border-rose-500/30"
+    },
+    "noise_code": 16,
+    "noise_name": "Phơi sáng quá mức / Dư sáng (Brighten)",
+    "confidence": 49.12,
+    "top_distortions": [
+      {
+        "code": 16,
+        "name": "Phơi sáng quá mức / Dư sáng (Brighten)",
+        "probability": 49.12
+      },
+      {
+        "code": 14,
+        "name": "Nhiễu nhân / Đốm hạt (Multiplicative noise)",
+        "probability": 35.91
+      },
+      {
+        "code": 19,
+        "name": "Nhiễu răng cưa / Rung ảnh (Jitter)",
+        "probability": 7.21
+      }
+    ],
+    "ground_truth": null,
+    "created_at": "2026-09-23 16:54:47"
+  },
+  {
+    "id": "7fcfa38e-55cb-478f-a43a-d1b3cce3663c",
+    "filename": "I02_17_05.png",
+    "image_url": "/uploads/7fcfa38e-55cb-478f-a43a-d1b3cce3663c_I02_17_05.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 272.8,
+    "predicted_mos": 2.19,
+    "rating": {
+      "label": "Kém (Poor)",
+      "color": "orange",
+      "badge": "bg-orange-500/10 text-orange-400 border-orange-500/30"
+    },
+    "noise_code": 17,
+    "noise_name": "Thiếu sáng (Darken)",
+    "confidence": 98.26,
+    "top_distortions": [
+      {
+        "code": 17,
+        "name": "Thiếu sáng (Darken)",
+        "probability": 98.26
+      },
+      {
+        "code": 20,
+        "name": "Biến dạng mảng cục bộ (Non-eccentricity patch)",
+        "probability": 0.76
+      },
+      {
+        "code": 25,
+        "name": "Thay đổi độ tương phản (Contrast change)",
+        "probability": 0.4
+      }
+    ],
+    "ground_truth": {
+      "dmos": 1.9,
+      "noise_code": 17,
+      "noise_name": "Thiếu sáng (Darken)"
+    },
+    "created_at": "2026-09-23 16:54:27"
+  },
+  {
+    "id": "9f7b71d9-4ef0-4391-ba01-a4fe6484ed75",
+    "filename": "I04_04_05.png",
+    "image_url": "/uploads/9f7b71d9-4ef0-4391-ba01-a4fe6484ed75_I04_04_05.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 268.2,
+    "predicted_mos": 1.84,
+    "rating": {
+      "label": "Kém (Poor)",
+      "color": "orange",
+      "badge": "bg-orange-500/10 text-orange-400 border-orange-500/30"
+    },
+    "noise_code": 4,
+    "noise_name": "Khuếch tán màu (Color diffusion)",
+    "confidence": 100.0,
+    "top_distortions": [
+      {
+        "code": 4,
+        "name": "Khuếch tán màu (Color diffusion)",
+        "probability": 100.0
+      },
+      {
+        "code": 8,
+        "name": "Tăng bão hòa màu rực rỡ (Color saturation 2)",
+        "probability": 0.0
+      },
+      {
+        "code": 16,
+        "name": "Phơi sáng quá mức / Dư sáng (Brighten)",
+        "probability": 0.0
+      }
+    ],
+    "ground_truth": {
+      "dmos": 1.67,
+      "noise_code": 4,
+      "noise_name": "Khuếch tán màu (Color diffusion)"
+    },
+    "created_at": "2026-09-23 16:54:09"
+  },
+  {
+    "id": "b2c9c52b-1d0c-4f7f-aef1-c772eb2b0c2f",
+    "filename": "I02_04_05.png",
+    "image_url": "/uploads/b2c9c52b-1d0c-4f7f-aef1-c772eb2b0c2f_I02_04_05.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 325.9,
+    "predicted_mos": 1.39,
+    "rating": {
+      "label": "Rất kém (Bad)",
+      "color": "rose",
+      "badge": "bg-rose-500/10 text-rose-400 border-rose-500/30"
+    },
+    "noise_code": 4,
+    "noise_name": "Khuếch tán màu (Color diffusion)",
+    "confidence": 100.0,
+    "top_distortions": [
+      {
+        "code": 4,
+        "name": "Khuếch tán màu (Color diffusion)",
+        "probability": 100.0
+      },
+      {
+        "code": 8,
+        "name": "Tăng bão hòa màu rực rỡ (Color saturation 2)",
+        "probability": 0.0
+      },
+      {
+        "code": 10,
+        "name": "Lỗi nén JPEG / Vỡ khối (JPEG)",
+        "probability": 0.0
+      }
+    ],
+    "ground_truth": {
+      "dmos": 1.53,
+      "noise_code": 4,
+      "noise_name": "Khuếch tán màu (Color diffusion)"
+    },
+    "created_at": "2026-09-23 16:53:52"
+  },
+  {
+    "id": "37508308-c8da-44db-a5d8-4ebb33ec1a69",
+    "filename": "I02_07_05.png",
+    "image_url": "/uploads/37508308-c8da-44db-a5d8-4ebb33ec1a69_I02_07_05.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 418.9,
+    "predicted_mos": 1.89,
+    "rating": {
+      "label": "Kém (Poor)",
+      "color": "orange",
+      "badge": "bg-orange-500/10 text-orange-400 border-orange-500/30"
+    },
+    "noise_code": 7,
+    "noise_name": "Giảm bão hòa màu nhạt đi (Color saturation 1)",
+    "confidence": 99.41,
+    "top_distortions": [
+      {
+        "code": 7,
+        "name": "Giảm bão hòa màu nhạt đi (Color saturation 1)",
+        "probability": 99.41
+      },
+      {
+        "code": 6,
+        "name": "Lượng tử hóa màu (Color quantization)",
+        "probability": 0.57
+      },
+      {
+        "code": 21,
+        "name": "Vỡ hạt Pixel (Pixelate)",
+        "probability": 0.01
+      }
+    ],
+    "ground_truth": {
+      "dmos": 1.53,
+      "noise_code": 7,
+      "noise_name": "Giảm bão hòa màu nhạt đi (Color saturation 1)"
+    },
+    "created_at": "2026-09-23 16:53:33"
+  },
+  {
+    "id": "4dab0f03-2f12-4524-9a69-f20eec421a82",
+    "filename": "I01_23_04.png",
+    "image_url": "/uploads/4dab0f03-2f12-4524-9a69-f20eec421a82_I01_23_04.png",
+    "width": 512,
+    "height": 384,
+    "file_size_kb": 254.2,
+    "predicted_mos": 2.46,
+    "rating": {
+      "label": "Trung bình (Fair)",
+      "color": "amber",
+      "badge": "bg-amber-500/10 text-amber-400 border-amber-500/30"
+    },
+    "noise_code": 23,
+    "noise_name": "Vỡ khối màu (Color block)",
+    "confidence": 100.0,
+    "top_distortions": [
+      {
+        "code": 23,
+        "name": "Vỡ khối màu (Color block)",
+        "probability": 100.0
+      },
+      {
+        "code": 8,
+        "name": "Tăng bão hòa màu rực rỡ (Color saturation 2)",
+        "probability": 0.0
+      },
+      {
+        "code": 16,
+        "name": "Phơi sáng quá mức / Dư sáng (Brighten)",
+        "probability": 0.0
+      }
+    ],
+    "ground_truth": {
+      "dmos": 2.37,
+      "noise_code": 23,
+      "noise_name": "Vỡ khối màu (Color block)"
+    },
+    "created_at": "2026-09-23 16:53:15"
+  },
+  {
     "id": "b33fedf6-597a-4c0a-8cef-2da00ef872dc",
     "filename": "I81_14_03.png",
     "image_url": "/uploads/b33fedf6-597a-4c0a-8cef-2da00ef872dc_I81_14_03.png",
